@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Recent Posts</h2>
+        <article class="post">
+            <h3><a href="post1.html">Post Title 1</a></h3>
+            <p class="summary">This is a short summary of the first post...</p>
+        </article>
+        <article class="post">
+            <h3><a href="post2.html">Post Title 2</a></h3>
+            <p class="summary">This is a short summary of the second post...</p>
+        </article>
+        <article class="post">
+            <h3><a href="post3.html">Post Title 3</a></h3>
+            <p class="summary">This is a short summary of the third post...</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Title 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-detail">
+            <h2>Post Title 1</h2>
+            <p class="date">Posted on November 25, 2024</p>
+            <p>This is the full content of the first blog post. You can write as much as you like here...</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post, .post-detail {
+    margin-bottom: 30px;
+}
+
+.post h3 {
+    font-size: 1.8rem;
+}
+
+.post a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post .summary {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+<article class="post">
+    <h3><a href="post4.html">Post Title 4</a></h3>
+    <p class="summary">This is a short summary of the fourth post...</p>
+</article>
+
+
+
